@@ -7,7 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  background-color: beige;
+}
+
+canvas {
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.graph {
+  width: 800px;
+  height: 800px;
 }
